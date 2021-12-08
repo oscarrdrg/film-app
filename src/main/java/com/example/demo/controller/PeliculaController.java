@@ -22,6 +22,14 @@ public class PeliculaController {
     @PostMapping("/peliculas")
     public Pelicula create(@Validated @RequestBody Pelicula p) {
 
+        for(Pelicula pelicula : repository.findAll()){
+
+            if(pelicula.getTitulo().equals(p.getTitulo())){
+                
+                return null;
+            }
+        }
+
         return repository.insert(p);
     }
 
