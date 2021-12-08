@@ -1,6 +1,7 @@
 package com.example.demo;
 
 import com.example.demo.controller.PeliculaController;
+import com.example.demo.model.Pelicula;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

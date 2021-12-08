@@ -1,6 +1,6 @@
 package com.example.demo.controller;
 
-import com.example.demo.Pelicula;
+import com.example.demo.model.Pelicula;
 import com.example.demo.repository.PeliculaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
@@ -70,6 +70,7 @@ public class PeliculaController {
 
     }
 
+    //eliminar una pelicula por su id
     @DeleteMapping("/peliculas/{id}")
     public void delete(@PathVariable String id) {
 
