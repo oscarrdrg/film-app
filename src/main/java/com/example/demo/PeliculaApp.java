@@ -30,15 +30,15 @@ public class PeliculaApp {
             actoresPulpFiction.add("Samuel L Jackson");
             actoresPulpFiction.add("Uma Thurman");
 
-            ArrayList<String> actoresOUATIH = new ArrayList<>();
-            actoresOUATIH.add("Leonardo DiCaprio");
-            actoresOUATIH.add("Brad Pitt");
-            actoresOUATIH.add("Margot Robbie");
+            ArrayList<String> actoresELDWS= new ArrayList<>();
+            actoresELDWS.add("Leonardo DiCaprio");
+            actoresELDWS.add("Jonah Hill");
+            actoresELDWS.add("Margot Robbie");
 
             //creamos algunas peliculas de muestra para comprobar que funciona y se guarda en la base de datos
             Pelicula pelicula = new Pelicula("Titanic", actoresTitanic, "Drama", 1997);
             Pelicula pelicula2 = new Pelicula("Pulp Fiction", actoresPulpFiction, "Crimen, Comedia Negra", 1994);
-            Pelicula pelicula3 = new Pelicula("Once Upon A Time In Hollywood", actoresOUATIH, "Crimen, Comedia Negra, Drama", 2019);
+            Pelicula pelicula3 = new Pelicula("El Lobo de Wall Street", actoresELDWS, "Biografica, Comedia Negra", 2013);
 
             //comprobamos que funciona la llamada POST
             repository.create(pelicula);
