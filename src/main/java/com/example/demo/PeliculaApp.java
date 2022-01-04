@@ -38,7 +38,7 @@ public class PeliculaApp {
 
             //creamos algunas peliculas de muestra para comprobar que funciona y se guarda en la base de datos
             Pelicula pelicula = new Pelicula("Titanic", actoresTitanic, "Drama", 1997);
-            Pelicula pelicula2 = new Pelicula("Pulp Fiction", actoresPulpFiction, "Crimen, Comedia Negra", 1994);
+            Pelicula pelicula2 = new Pelicula("Pulp", actoresPulpFiction, "Crimen, Comedia Negra", 1994);
             Pelicula pelicula3 = new Pelicula("El Lobo de Wall Street", actoresELDWS, "Biografica, Comedia Negra", 2013);
 
             //comprobamos que funciona la llamada POST
