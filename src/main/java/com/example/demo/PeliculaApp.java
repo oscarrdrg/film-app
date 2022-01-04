@@ -37,7 +37,7 @@ public class PeliculaApp {
             actoresELDWS.add("Margot Robbie");
             
             ArrayList<String> actoresESDLC= new ArrayList<>();
-            actoresESDLC.add("Anothony Hopkins");
+            actoresESDLC.add("Anthony Hopkins");
             actoresESDLC.add("Jodi Foster");
             
 
