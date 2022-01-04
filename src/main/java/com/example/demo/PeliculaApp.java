@@ -29,6 +29,7 @@ public class PeliculaApp {
             actoresPulpFiction.add("John Travolta");
             actoresPulpFiction.add("Samuel L Jackson");
             actoresPulpFiction.add("Uma Thurman");
+            actoresPulpFiction.add("Bruce Willis");
 
             ArrayList<String> actoresELDWS= new ArrayList<>();
             actoresELDWS.add("Leonardo DiCaprio");
