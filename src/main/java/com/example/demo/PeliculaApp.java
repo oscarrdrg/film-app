@@ -35,16 +35,23 @@ public class PeliculaApp {
             actoresELDWS.add("Leonardo DiCaprio");
             actoresELDWS.add("Jonah Hill");
             actoresELDWS.add("Margot Robbie");
+            
+            ArrayList<String> actoresESDLC= new ArrayList<>();
+            actoresESDLC.add("Anothony Hopkins");
+            actoresESDLC.add("Jodi Foster");
+            
 
             //creamos algunas peliculas de muestra para comprobar que funciona y se guarda en la base de datos
             Pelicula pelicula = new Pelicula("Titanic", actoresTitanic, "Drama", 1997);
             Pelicula pelicula2 = new Pelicula("Pulp Fiction", actoresPulpFiction, "Crimen, Comedia Negra", 1994);
             Pelicula pelicula3 = new Pelicula("El Lobo de Wall Street", actoresELDWS, "Biografica, Comedia Negra", 2013);
+            Pelicula pelicula4 = new Pelicula("El Silencio de los Corderos", actoresESDLC, "Thriller, Terror, Drama", 1991);
 
             //comprobamos que funciona la llamada POST
             repository.create(pelicula);
             repository.create(pelicula2);
             repository.create(pelicula3);
+            repository.create(pelicula4);
 
         };
 
