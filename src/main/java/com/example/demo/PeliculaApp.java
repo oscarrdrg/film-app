@@ -46,12 +46,15 @@ public class PeliculaApp {
             Pelicula pelicula2 = new Pelicula("Pulp Fiction", actoresPulpFiction, "Crimen, Comedia Negra", 1994);
             Pelicula pelicula3 = new Pelicula("El Lobo de Wall Street", actoresELDWS, "Biografica, Comedia Negra", 2013);
             Pelicula pelicula4 = new Pelicula("El Silencio de los Corderos", actoresESDLC, "Thriller, Terror, Drama", 1991);
+            Pelicula pelicula5 = new Pelicula("PruebaJenkins", actoresESDLC, "Thriller, Terror, Drama", 1991);
 
             //comprobamos que funciona la llamada POST
             repository.create(pelicula);
             repository.create(pelicula2);
             repository.create(pelicula3);
             repository.create(pelicula4);
+            repository.create(pelicula5);
+            
 
         };
 
