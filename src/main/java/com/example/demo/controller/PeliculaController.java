@@ -84,5 +84,10 @@ public class PeliculaController {
 
         repository.deleteById(id);
     }
+    
+      @GetMapping("/test")
+    public String test() {
+        return "hola que tal";
+    }
 
 }
