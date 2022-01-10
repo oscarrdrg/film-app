@@ -48,7 +48,7 @@ public class PeliculaController {
 
     //mostrar la pelicula con el titulo en el path
     @GetMapping("/peliculas/titulo/{titulo}")
-    public Pelicula readFilmByTitle(@PathVariable String titulo) {
+    public Pelicula readFilmByTitle(@PathVariable String titulo){
 
         for (Pelicula pelicula : repository.findAll()) {
             if (pelicula.getTitulo().equals(titulo)) {
@@ -83,6 +83,11 @@ public class PeliculaController {
     public void delete(@PathVariable String id) {
 
         repository.deleteById(id);
+    }
+
+    @GetMapping("/test")
+    public String test() {
+        return "hola que tal";
     }
 
 }

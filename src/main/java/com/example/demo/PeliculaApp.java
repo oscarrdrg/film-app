@@ -13,6 +13,7 @@ import java.util.ArrayList;
 public class PeliculaApp {
 
     public static void main(String[] args) {
+
         SpringApplication.run(PeliculaApp.class, args);
     }
 
@@ -30,7 +31,7 @@ public class PeliculaApp {
             actoresPulpFiction.add("Samuel L Jackson");
             actoresPulpFiction.add("Uma Thurman");
 
-            ArrayList<String> actoresELDWS= new ArrayList<>();
+            ArrayList<String> actoresELDWS = new ArrayList<>();
             actoresELDWS.add("Leonardo DiCaprio");
             actoresELDWS.add("Jonah Hill");
             actoresELDWS.add("Margot Robbie");
